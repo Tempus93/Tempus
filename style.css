@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.navbar{ 
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    padding: 30px 0;
+    transition: 0.3s ease-in;
+    
+}
+
+/* navbar styling*/
+
+
+.navbar #logo{
+    color: white;
+    font-size: 240%;
+    padding: 0 35px;
+    margin: 0;
+}
+
+#spacing{
+    width: 1300px;
+    padding: 0 70px;
+}
+
+.navbar .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu  a{
+    font-size: 185%;
+    padding: 20px;
+    margin-right: 60px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    transition: 0.4s ease-in;
+}
+
+.navbar .menu a:hover{
+    font-size: 250%;
+    text-decoration: underline black;
+}
+
+/* scrolling */
+.scrolled-nav{
+    padding: 30px 0;
+    background: #677AFE ;
+}
+
+
+
+/* home section */
+
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: url("images/Pic.JPG") no-repeat center;
+    background-size: cover;
+    padding: auto;
+    height: 200vh;
+    color: white;
+    min-height: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 1s ease-in;
+}
+
+#home .max-width{
+    margin: auto 0 auto 400px;
+   
+}
+
+#home .max-width #content{
+    border: black 5px ridge;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap 20px;
+    font-size:70px;
+    text-align: left;
+    margin-left: -350px;
+    margin-top: -800px;
+    padding: 3px;
+}
+
+#text-4{
+    color: #677AFE;
+}
+.scrolled-home{
+    background: black;
+}
+
+/* About Section */
+
+#About{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: url("images/giga.JPG") no-repeat center;
+    background-size: cover;
+    padding: auto;
+    height: 200vh;
+    color: white;
+    min-height: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+#About .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+#About #title{
+    font-size: 100px;
+    border: #677AFE  10px solid;
+    margin-top: -950px ;
+
+}
+
+#About #spacer{
+    padding-bottom: 250px ;
+
+}
+
+/* Projects section */
+#Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("images/giga.JPG") no-repeat center;
+    background-size: cover;
+    padding: auto;
+    height: 200vh;
+    color: white;
+    min-height: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+#Projects .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+#Projects #title{
+    border: #677AFE  10px solid;
+
+}
+
+#Projects #spacer{
+    padding-bottom: 190px ;
+
+}
+
+/* Project Containers */
+#project_containers #info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: #677AFE solid 10px;
+    border-radius: 40px;
+    margin-top: 50px;
+    padding: 30px;
+    font-size: 50%;
+
+}
+
+#project_containers #img{
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 40px;
+    transition: 0.3s ease-in;
+}
+
+#project_containers #img:hover{
+    width: 250px;
+    height: 250px;
+}
+#project_containers #name{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 150%;
+    text-decoration: underline 2px #677AFE;
+}
+
+#project_containers #description_title{
+    font-size: 130%;
+    text-decoration: underline 2px #677AFE;
+    margin-bottom: 10px;
+}
+
+#project_containers #description_text{
+    font-size: 120%;
+    margin: 20px;
+}
+
+#project_containers #experience_title{
+    font-size: 130%;
+    text-decoration: underline 2px #677AFE;
+    margin-bottom: 10px;
+}
+
+#project_containers #experience_text{
+    font-size: 120%;
+    margin: 20px;
+}
+
+
+
+
+
+/* family? section */
+#family{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: url("images/Dom.jpg") no-repeat center;
+    background-size: cover;
+    padding: auto;
+    height: 200vh;
+    color: white;
+    min-height: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
